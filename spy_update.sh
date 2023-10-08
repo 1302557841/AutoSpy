@@ -22,7 +22,13 @@ echo "重启一下spy试试吧"
 
 else
 
-echo "地址不对，请在spy文件夹下运行"
+rm auto_spy.so_aarch64*
+rm auto_spy.so_x86_64*
+rm auto_spy.so_x86_64_2*
+
+wget https://git.gushao.club/https://github.com/xieshang/AutoSpy/raw/master/auto_spy.so_aarch64
+wget https://git.gushao.club/https://github.com/xieshang/AutoSpy/raw/master/auto_spy.so_x86_64
+wget https://git.gushao.club/https://github.com/xieshang/AutoSpy/raw/master/auto_spy.so_x86_64_2
 
 fi
 
